@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
+
 def train_price_model(X, y):
     """
     Обучает модель линейной регрессии на наборе признаков X и целевой переменной y.
